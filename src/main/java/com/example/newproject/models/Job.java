@@ -1,6 +1,6 @@
 package com.example.newproject.models;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 //@Where(clause = "is_active = true")
 @Entity
 @Table(name = "jobs")
