@@ -15,6 +15,7 @@ public interface JobRepository extends JpaRepository<Job, Long> {
             "FROM Job j " +
             "WHERE j.name IS NOT NULL AND j.description IS NOT NULL")
     Page<Job> getAll(Pageable pageable);
-    Optional findFirstByNameAndDescription(String name, String description);
+
+    Optional<Job> findFirstByNameAndDescription(String name, String description);
 
 }
