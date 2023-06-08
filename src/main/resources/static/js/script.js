@@ -124,7 +124,7 @@
     //Hide Loading Box (Preloader)
     function stylePreloader() {
         if ($('.preloader').length) {
-            $('.preloader').delay(200).fadeOut(500);
+            $('.preloader').delay(10).fadeOut(500);
         }
     }
 

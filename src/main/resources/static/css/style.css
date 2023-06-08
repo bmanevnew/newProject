@@ -650,10 +650,12 @@ table tr th {
     clear: both;
 }
 
+
 .fh-form .last-row {
     float: right;
     padding-right: 0;
 }
+
 
 .fh-form ::-webkit-input-placeholder {
     color: #a8a8a8;
@@ -3498,6 +3500,57 @@ p {
 ====================================================================
 
  ***/
+.slider {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide-bg {
+    width: 100%;
+    height: auto;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 12px 35px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f00;
+    border: 1px solid #f00;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #f00;
+}
 
 .service .service-inner {
     margin-bottom: 40px;
