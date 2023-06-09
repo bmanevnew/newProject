@@ -1,5 +1,4 @@
-GRANT ALL PRIVILEGES ON deltagroup.* TO 'ivt8hzcvq0kxf8xi'@'%' IDENTIFIED BY 'd81a2is7m9jl4m56';
-FLUSH PRIVILEGES;
+
 -- Dumping structure for table deltagroup.jobs
 CREATE TABLE IF NOT EXISTS deltagroup.jobs
 (
