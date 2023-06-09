@@ -1,1 +1,1 @@
-web: java -jar NewProject.jar
+web: java -jar "out/artifacts/NewProject_jar/NewProject-1.0.0.jar"
