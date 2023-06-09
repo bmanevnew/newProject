@@ -1,6 +1,4 @@
-
--- Dumping structure for table deltagroup.jobs
-CREATE TABLE IF NOT EXISTS deltagroup.jobs
+CREATE TABLE IF NOT EXISTS jobs
 (
     `job_id`      int(11)       NOT NULL AUTO_INCREMENT,
     `name`        varchar(100)  NOT NULL,
@@ -12,10 +10,7 @@ CREATE TABLE IF NOT EXISTS deltagroup.jobs
   DEFAULT CHARSET = latin1
   COLLATE = latin1_swedish_ci;
 
--- Data exporting was unselected.
-
--- Dumping structure for table deltagroup.news
-CREATE TABLE IF NOT EXISTS deltagroup.news
+CREATE TABLE IF NOT EXISTS news
 (
     `name`        varchar(200) NOT NULL,
     `description` varchar(3000)         DEFAULT NULL,
@@ -29,10 +24,8 @@ CREATE TABLE IF NOT EXISTS deltagroup.news
   DEFAULT CHARSET = latin1
   COLLATE = latin1_swedish_ci;
 
--- Data exporting was unselected.
 
--- Dumping structure for table deltagroup.users
-CREATE TABLE IF NOT EXISTS deltagroup.users
+CREATE TABLE IF NOT EXISTS users
 (
     `username`  varchar(32) NOT NULL,
     `password`  varchar(32) NOT NULL,
@@ -45,4 +38,3 @@ CREATE TABLE IF NOT EXISTS deltagroup.users
   DEFAULT CHARSET = latin1
   COLLATE = latin1_swedish_ci;
 
--- Data exporting was unselected.
