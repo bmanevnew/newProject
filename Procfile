@@ -1,1 +1,1 @@
-web: java -jar out/artifacts/NewProject_jar/NewProject-1.0.0.jar
+web: java -jar out/artifacts/NewProject_jar/NewProject-1.0.0.SNAPSHOT.jar
