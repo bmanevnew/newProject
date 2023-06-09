@@ -1,1 +1,1 @@
-web: java -jar build/libs/NewProject.jar
+web: java -jar out/artifacts/NewProject_jar/NewProject.jar
