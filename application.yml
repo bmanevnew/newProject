@@ -8,7 +8,7 @@ spring:
     url: jdbc:mysql://f80b6byii2vwv8cx.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/ivx1dqusoj0hclww
     username: ivt8hzcvq0kxf8xi
     password: d81a2is7m9jl4m56
-    driver-class-name: NewProject.jar
+    driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
